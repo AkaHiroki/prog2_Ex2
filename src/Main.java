@@ -9,8 +9,11 @@ public class Main{
 
         bot1.greeting();
         bot2.greeting();
-        bot2.name = "vivy";
+        bot2.setName("vivy");
         bot2.greeting();
+        bot2.setName("差別用語");
+        bot2.greeting();
+
 
     }
 }
